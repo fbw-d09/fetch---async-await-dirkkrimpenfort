@@ -1,0 +1,19 @@
+{
+  "version": "0.1.0",
+  "description": "fetch-async-await",
+  "scripts": {
+    "test": "jest --forceExit --testTimeout=6000"
+  },
+  "devDependencies": {
+    "jest": "^29.4.3",
+    "puppeteer": "^19.7.2"
+  },
+  "autograding": {
+    "setup": "cd ./node_modules/puppeteer && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DigitalCareerInstitute/Browser-fetch-async",
+    "id": 209311286
+  }
+}
